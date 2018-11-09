@@ -108,7 +108,12 @@ h1+p {
 
 /*#endregion*/
 
-/*#region section6*/
+/*#region section go-it-solo*/
+
+#cadreblanc {
+    background-color: white;
+    max-width: 1170px;
+}
 
 /*#endregion*/
 
@@ -117,5 +122,22 @@ h1+p {
 ul {
     list-style-type: none;
 }
+
+footer {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom-footer {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*#endregion*/
