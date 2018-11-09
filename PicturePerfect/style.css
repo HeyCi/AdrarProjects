@@ -1,0 +1,121 @@
+html, body {
+    margin : 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+/*#region header*/
+
+header {
+    height: 900px;
+    background-image: url("masthead.jpg");
+}
+
+h1 {
+    color: white;
+}
+
+h1+p {
+    color: white;
+}
+
+/*#endregion*/
+
+/*#region section start-stg-new*/
+
+#start-stg-new {
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    overflow: hidden;
+}
+
+/*#endregion*/
+
+/*#region section design-quality*/
+
+#design-quality {
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+}
+
+.dq {
+    color: white;
+    margin: 0 5px;
+    height: 260px;
+}
+
+.dq1 {
+    background-color: palevioletred;
+}
+
+.dq2 {
+    background-color: cornflowerblue;
+}
+
+.dq3, .dq7 {
+    background-image: url("image01.jpg");
+    background-size: cover;
+    background-position : center;
+}
+
+.dq4 {
+    background-color: purple;
+}
+
+.dq5 {
+    background-image: url("image02.jpg");
+    background-size: cover;
+    background-position : center;
+}
+
+.dq6 {
+    background-color: green;
+}
+
+/*#endregion*/
+
+/*#region section look-details*/
+
+#look-detail {
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+}
+
+/*#endregion*/
+
+/*#region section more-power*/
+
+#more-power {
+    background-image : url("fullimage.jpg");
+    background-size: cover;
+    background-position : center;
+    height: 700px;
+}
+
+/*#endregion*/
+
+/*#region section reasons*/
+
+#reasons {
+    background-color : lightgreen;
+}
+
+/*#endregion*/
+
+/*#region section6*/
+
+/*#endregion*/
+
+/*#region footer*/
+
+ul {
+    list-style-type: none;
+}
+
+/*#endregion*/
