@@ -1,10 +1,27 @@
 html, body {
     margin : 0;
+    background-color: ghostwhite;
 }
 
 h3 {
     margin: 0;
     font-size: 30px;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.arrow {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
 }
 
 /*#region header*/
@@ -12,14 +29,35 @@ h3 {
 header {
     height: 900px;
     background-image: url("masthead.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
     color: white;
+    font-size: 60px;
+    font-weight: normal;
 }
 
 h1+p {
     color: white;
+}
+
+#full-haut {
+    max-width: 1170px;
+    padding: 50px 20px;
+    margin: auto;
+}
+
+#full-top {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 639px) {
+    #iphone {
+        display: none;
+    }
 }
 
 /*#endregion*/
@@ -29,8 +67,10 @@ h1+p {
 #start-stg-new {
     display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 1170px;
     overflow: hidden;
+    padding: 80px 20px;
 }
 
 /*#endregion*/
@@ -45,8 +85,9 @@ h1+p {
 
 .dq {
     color: white;
-    margin: 0 5px;
+    margin: 0 20px;
     height: 260px;
+    padding: 50px;
 }
 
 .dq1 {
@@ -85,6 +126,7 @@ h1+p {
     display: flex;
     flex-direction: column;
     max-width: 1170px;
+    padding: 80px 20px;
 }
 
 /*#endregion*/
@@ -96,6 +138,7 @@ h1+p {
     background-size: cover;
     background-position : center;
     height: 700px;
+    padding: 50px 20px;
 }
 
 /*#endregion*/
@@ -103,16 +146,73 @@ h1+p {
 /*#region section reasons*/
 
 #reasons {
+    display: flex;
+    flex-direction: column;
     background-color : lightgreen;
+    color : white;
+    padding: 50px 20px;
+}
+
+.taille-max {
+    max-width: 1170px;
+    margin: auto;
 }
 
 /*#endregion*/
 
 /*#region section go-it-solo*/
 
-#cadreblanc {
-    background-color: white;
+#go-it-solo {
+    display: flex;
+    flex-direction : column;
     max-width: 1170px;
+    padding: 50px 20px;
+}
+
+h5 {
+    font-size: 35px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.cadre-prix {
+    padding: 40px;
+}
+
+.cadreblanc {
+    background-color: white;
+}
+
+.buy {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+.logo {
+    padding-left: 20px;
+    transform: translateY(25%);
+}
+
+.legacy {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.cadre-gris {
+    background-color: grey;
+}
+
+.cadre-violet {
+    background-color: mediumpurple;
 }
 
 /*#endregion*/
@@ -125,8 +225,8 @@ ul {
 
 footer {
     background-color: blue;
-    display: flex;
-    flex-direction: column;
+    color: white;
+    padding: 50px 20px;
 }
 
 #top-footer {
@@ -137,6 +237,23 @@ footer {
 #bottom-footer {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+}
+
+button {
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    box-sizing: border-box;
+    border-radius: 0 4px 4px 0;
+    height: 50px;
+    width: 50px;
+    transform: translateY(7%);
+}
+
+#recherche {
+    box-sizing: border-box;
+    height: 50px;
+    border-radius: 4px 0 0 4px;
 }
 
 
